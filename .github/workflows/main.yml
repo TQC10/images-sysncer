@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/langgenius/dify-api:0.7.0 docker://registry.cn-hangzhou.aliyuncs.com/tqc_docker/dify-api:0.7.0
+        skopeo copy docker://docker.io/langgenius/dify-web:0.7.0 docker://registry.cn-hangzhou.aliyuncs.com/tqc_docker/dify-web:0.7.0
